@@ -16,9 +16,7 @@ $(document).ready(function () {
       imgs = 0;
     }
   });
-});
-
-var swiper = new Swiper(".logosSwiper", {
+  var swiper = new Swiper(".logosSwiper", {
   slidesPerView: 1,
   spaceBetween: 50,
   // slidesPerGroup: 3,
@@ -67,4 +65,7 @@ var swiper = new Swiper(".metroSlider", {
     prevEl: ".metroSlider-button-prev",
   },
 });
+
+});
+
 
