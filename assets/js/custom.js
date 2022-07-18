@@ -3,6 +3,7 @@ $(document).ready(function () {
   $(".menu_icon").on('click', function () {
     $("#menu").slideToggle();
     $("body").toggleClass("overflow")
+    $(".menu_icon").toggleClass("openmenu")
   });
 
 
