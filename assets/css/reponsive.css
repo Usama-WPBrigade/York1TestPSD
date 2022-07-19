@@ -37,7 +37,7 @@
     .bepart_wrapper .container .col_right p{
         margin-left: 0px;
     }
-    .discover_btn button{
+    .discover_btn a{
         margin-left: 0px;
     }
 }
@@ -148,6 +148,7 @@
         height: 100%;
         object-fit: contain;
     } */
+    
      /* burgericon*/
      .header_wrapper .container .logo_col .menu_icon{
         width: 18px;

@@ -362,7 +362,7 @@ padding-right: 0;
     margin-top: 20px;
     max-width: 400px;
 }
-.car_btn button{
+.car_btn a{
     margin-top: 20px;
     font-family: 'Segoe UI';
     font-style: normal;
@@ -375,9 +375,11 @@ padding-right: 0;
     background-color: transparent;
     transition: 0.3s all;
     cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
 }
 
-.car_btn button:hover{
+.car_btn a:hover{
     background-color: #0097E0;
     color: #FFFFFF;
 }
@@ -482,6 +484,8 @@ padding-right: 0;
     max-width: 633px;
   }
   .about_btn{
+      display: inline-block;
+      text-decoration: none;
     margin-top: 20px;
     font-family: 'Segoe UI';
     font-style: normal;
@@ -680,7 +684,7 @@ padding-right: 0;
     margin-bottom: 32px;
 
 }
-.discover_btn button{
+.discover_btn a{
     margin-top: 20px;
     font-family: 'Segoe UI';
     font-style: normal;
@@ -696,9 +700,11 @@ padding-right: 0;
     margin-top: 33px;
     margin-left: 29px;
     margin-top: 32px;
+    text-decoration: none;
+    display: inline-block;
 }
 
-.discover_btn button:hover{
+.discover_btn a:hover{
    color: #0097E0;
     background-color: #FFFFFF;;
 }
