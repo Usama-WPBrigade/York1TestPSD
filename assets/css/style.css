@@ -1,18 +1,18 @@
 @font-face {
-    font-family: 'Work Sans';
-    src: url('/assets/fonts/workSans/WorkSans-VariableFont_wght.ttf');
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+    src: url('../fonts/workSans/WorkSans-VariableFont_wght.ttf');
 }
 @font-face {
     font-family: 'TerminaW05-Black';
-    src: url('/assets/fonts/TerminaW05Black/Termina\ W05\ Black.woff');
+    src: url('../fonts/TerminaW05Black/Termina\ W05\ Black.woff');
 }
 @font-face {
-    font-family: 'worksanbold';
-    src: url('/assets/fonts/WorksanBol/Work\ Sans\ Bold.ttf');
+    font-family: 'worksanbold', ;
+    src: url('../fonts/WorksanBol/Work\ Sans\ Bold.ttf');
 }
 @font-face {
     font-family: 'Roboto';
-    src: url('/assets/fonts/Roboto-Regular.ttf');
+    src: url('../fonts/Roboto-Regular.ttf');
 }
 
 *{
@@ -75,7 +75,7 @@ body a{
 
 .header_wrapper .container .menu  ul li a{
     text-decoration: none;
-    font-family: 'Work Sans';
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -114,7 +114,7 @@ body a{
     background-image: url('../images/hero_img.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 50px 20px;
+    padding: 50px 0px;
     background-position: top center;
     display: flex;
 
@@ -144,11 +144,11 @@ body a{
     flex-direction: column;
     align-items:center;
     justify-content: center;
-
+    padding: 0;
 }
 
 .cta_wrapper h2{
-    font-family: 'TerminaW05-Black';
+    font-family: 'TerminaW05-Black',Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 100px;
@@ -162,7 +162,7 @@ body a{
     text-align: center;
     max-width: 1024px;
     margin: auto;
-    font-family: 'Work Sans';
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
@@ -177,7 +177,6 @@ body a{
 
 /* ZigZag  Left Section */
 .zigzag_left{
-    min-height: 670px;
     width: 100%;
     background-image: url('../images/zigzag_1.jpg');
     background-repeat: no-repeat;
@@ -198,26 +197,29 @@ body a{
     width: 100%;
     padding: 50px;
     display: flex;
-    align-items: flex-end;
-    /* justify-content: center; */
+    justify-content: flex-end;
     background: #00AEEF;
     opacity: 0.9;
+    flex-direction: column;
 }
 
 .zigzag_left .content h2{
 
-    font-family: 'TerminaW05-Black';
+    font-family: 'TerminaW05-Black',Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 50px;
     line-height: 50px;
    color: #FFFFFF;
 }
+.zigzag_left .content h2:not(:last-child){
+    margin-bottom: 16px;
+}
+
 
 /* ZigZag Right Section*/
 
 .zigzag_Right{
-    min-height: 670px;
     width: 100%;
     background-color: #00AEEF;
     background-image: url('../images/zigzag_2.jpg');
@@ -240,25 +242,28 @@ body a{
     width: 100%;
     padding: 50px;
     display: flex;
-    align-items: flex-end;
-    /* justify-content: center; */
+    justify-content: flex-end;
     background: #FFFFFF;
     opacity: 0.9;
+    flex-direction: column;
 }
 
 .zigzag_Right .content h2{
-    font-family: 'TerminaW05-Black';
+    font-family: 'TerminaW05-Black',Arial, Helvetica, sans-serif;
     font-style: normal; 
     font-weight: 900;
     font-size: 50px;
     line-height: 50px;
     color: #0097E0;
 }
+.zigzag_Right .content h2:not(:last-child){
+    margin-bottom: 16px;
+}
+
 
 /* ZigZag Right Section*/
 
 .zigzag_third{
-    min-height: 674px;
     width: 100%;
     background-color: #00AEEF;
     background-image: url('../images/zigzag_3.jpg');
@@ -280,26 +285,29 @@ body a{
     width: 100%;
     padding: 50px;
     display: flex;
-    align-items: flex-end;
+    justify-content: flex-end;
     background: #00AEEF;
     opacity: 0.9;
+    flex-direction: column;
 }
 
 .zigzag_third .content h2{
-    font-family: 'TerminaW05-Black';
+    font-family: 'TerminaW05-Black',Arial, Helvetica, sans-serif;
     font-style: normal; 
     font-weight: 900;
     font-size: 50px;
     line-height: 50px;
     color: #FFFFFF;
-
+}
+.zigzag_third .content h2:not(:last-child){
+    margin-bottom: 16px;
 }
 
 .tast_wrapper{
     padding: 57px 0 36px 0;
 }
 .tast_wrapper .container h2{
-    font-family: 'TerminaW05-Black';
+    font-family: 'TerminaW05-Black',Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 50px;
@@ -308,7 +316,7 @@ body a{
     max-width: 765px;
 }
 .tast_wrapper .container p{
-    font-family: 'Work Sans';
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;   
     font-size: 18px;
@@ -352,7 +360,7 @@ body a{
 }
 .card_wrapper .card .content h3{
     margin-top: 16px;
-    font-family: 'Work Sans';
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -360,7 +368,7 @@ body a{
     color: #616365;
 }
 .card_wrapper .card .content p{
-    font-family: 'Work Sans';
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -400,7 +408,7 @@ body a{
 
 }
 .logoSlider_wrapper h2{
-    font-family: 'TerminaW05-Black';
+    font-family: 'TerminaW05-Black',Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 50px;
@@ -474,7 +482,7 @@ body a{
       padding: 65px 0 80px 0;
   }
   .ourwork_wrapper h2{
-    font-family: 'TerminaW05-Black';
+    font-family: 'TerminaW05-Black',Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 48px;
@@ -482,7 +490,7 @@ body a{
     color: #616365;
   }
   .ourwork_wrapper p{
-    font-family: 'Work Sans';
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -569,7 +577,7 @@ body a{
 
   }
   .metroSlider_container .swiper-slide h2{
-    font-family: 'worksanbold';
+    font-family: 'worksanbold',Arial, Helvetica, sans-serif ;
     font-style: normal; 
     font-weight: 700;
     font-size: 36px;
@@ -579,7 +587,7 @@ body a{
     margin-bottom: 11px;
   }
   .metroSlider_container .swiper-slide p{
-    font-family: 'Work Sans';
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -679,7 +687,7 @@ body a{
     margin: 0px 10px 29px 30px;
 }
 .bepart_wrapper .container .col_right p{
-    font-family: 'Work Sans';
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -723,7 +731,7 @@ body a{
     padding: 30px 0;
 }
 .explore_wrapper h2{
-    font-family: 'TerminaW05-Black';
+    font-family: 'TerminaW05-Black', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 48px;
@@ -741,7 +749,7 @@ body a{
     margin: 0 20px;
 }
 .blog_card .blogcard h3{
-    font-family: 'worksanbold';
+    font-family: 'worksanbold',Arial, Helvetica, sans-serif ;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -786,7 +794,7 @@ body a{
     margin: -5px 0 5px 0;
 }
 .footer_wrapper .container .footerLeft_col .leftCOl ul li a{
-    font-family: 'Roboto';
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
@@ -813,7 +821,7 @@ body a{
 }
 
 .footerRight_col p{
-    font-family: 'Work Sans';
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
@@ -822,7 +830,7 @@ body a{
 }
 .footerRight_col p a{
     text-decoration: none;
-    font-family: 'Work Sans';
+    font-family: 'Work Sans', Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
